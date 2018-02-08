@@ -21,6 +21,7 @@ namespace TestProject
         {
             IWebDriver Driver = new ChromeDriver();
             Driver.Navigate().GoToUrl("http://www.google.com");
+            Driver.Close();
             Driver.Quit();
            
         }
